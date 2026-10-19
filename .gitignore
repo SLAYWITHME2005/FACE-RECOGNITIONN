@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ONNX model files (auto-downloaded on first run)
+models/fer/*.onnx
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Collected face data (large images, not needed in repo)
+# Comment this out if you want to include sample data
+# data/collected/
+
+# Temporary files
+*.tmp
+*.bak
